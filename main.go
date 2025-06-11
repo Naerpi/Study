@@ -38,4 +38,5 @@ func TestPingHandler(t *testing.T) {
     if !strings.Contains(w.Body.String(), "hellowprld") {
         t.Fatalf("response does not contain hellowprld")
     }
+    fmt.Println("修改")
 }
